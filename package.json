@@ -1,0 +1,39 @@
+{
+  "name": "vite-storybook-tailwind-svelte",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@storybook/addon-actions": "^6.4.0-alpha.30",
+    "@storybook/addon-essentials": "^6.4.0-alpha.30",
+    "@storybook/addon-links": "^6.4.0-alpha.30",
+    "@storybook/addon-svelte-csf": "^1.1.0",
+    "@storybook/svelte": "^6.4.0-alpha.30",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.3.6",
+    "storybook-builder-vite": "0.0.12",
+    "svelte": "^3.42.1",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.8.0",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "glob": "^7.1.7",
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.1",
+    "svelte-i18n": "^3.3.10",
+    "svelte-pathfinder": "^3.2.3"
+  }
+}
